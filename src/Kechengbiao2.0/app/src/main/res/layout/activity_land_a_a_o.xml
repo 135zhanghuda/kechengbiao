@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/denglubeijingtu"
+    >
+
+    <include layout="@layout/layout_land" />
+    <include layout="@layout/layout_land_verification_code" />
+    <include layout="@layout/layout_land2" />
+
+
+    <Spinner
+        android:id="@+id/spiner_xuenian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+    <Spinner
+        android:id="@+id/spiner_xueqi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+    <Button
+        android:id="@+id/Button_course_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="课程表course_table"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/htmlText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>
