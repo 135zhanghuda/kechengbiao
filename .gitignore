@@ -5,3 +5,4 @@ src/Kechengbiao2.0/gradlew
 src/Kechengbiao2.0/gradlew.bat
 src/Kechengbiao2.0/gradle/
 src/Kechengbiao2.0/app/proguard-rules.pro
+src/Kechengbiao2.0/app/build.gradle

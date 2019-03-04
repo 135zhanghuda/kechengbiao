@@ -47,8 +47,9 @@ private List<Course> courseList=new ArrayList<>();
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.returnmain:
-                Intent intent=new Intent(gongjuactivity.this,MainActivity.class);
-                startActivity(intent);
+//                Intent intent=new Intent(gongjuactivity.this,MainActivity.class);
+//                startActivity(intent);
+                finish();
                 break;
         }
     }
